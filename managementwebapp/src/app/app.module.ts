@@ -8,6 +8,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ItemdetailComponent } from './itemdetail/itemdetail.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule} from '@angular/forms';
+import { NavbarFooterComponent } from './navbar-footer/navbar-footer.component';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FormsModule} from '@angular/forms';
     DashboardComponent,
     ItemdetailComponent,
     NavbarComponent,
-    ItemdetailComponent
+    ItemdetailComponent,
+    NavbarFooterComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,
